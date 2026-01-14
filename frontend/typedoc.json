@@ -1,0 +1,17 @@
+{
+    "entryPoints": [
+      "./src/main.ts",
+      "./src/app/app.module.ts",
+    "./src/app/dashboard/**/*.ts",
+    "./src/app/login/**/*.ts",
+    "./src/app/menu/**/*.ts",
+    "./src/app/services/**/*.ts",
+    
+    ], // Ajusta la ruta según tu punto de entrada
+    "out": "docs",
+    "exclude": ["**/node_modules/**", "**/*.spec.ts"],
+    "name": "Banca Web Angular. Consutruccion de software",
+    "theme": "default",
+    "includeVersion": true
+  }
+  
